@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.5.xsd">
+
+    <changeSet id="1777178843467-1" author="MoOsman">
+        <insert tableName="document_type">
+            <column name="name" value="صوره البطاقه"/>
+            <column name="created_date" valueDate="now()"/>
+            <column name="modified_date" valueDate="now()"/>
+            <column name="created_by" value=""/>
+            <column name="modified_by" value=""/>
+        </insert>
+        <insert tableName="document_type">
+            <column name="name" value="صوره الكارنيه"/>
+            <column name="created_date" valueDate="now()"/>
+            <column name="modified_date" valueDate="now()"/>
+            <column name="created_by" value=""/>
+            <column name="modified_by" value=""/>
+        </insert>
+        <insert tableName="document_type">
+            <column name="name" value="صوره ايصال الدفع"/>
+            <column name="created_date" valueDate="now()"/>
+            <column name="modified_date" valueDate="now()"/>
+            <column name="created_by" value=""/>
+            <column name="modified_by" value=""/>
+        </insert>
+
+    </changeSet>
+</databaseChangeLog>

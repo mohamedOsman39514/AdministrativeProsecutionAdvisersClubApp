@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.5.xsd">
+
+    <changeSet id="1757118843466-1" author="MoOsman">
+        <insert tableName="service_definition">
+            <column name="name" value="صندوق تكافل اسر المتوفيين"/>
+        </insert>
+        <insert tableName="service_definition">
+            <column name="name" value="صندوق الحالات الحرجه"/>
+        </insert>
+        <insert tableName="service_definition">
+            <column name="name" value="اصدار الكارنيهات"/>
+        </insert>
+        <insert tableName="service_definition">
+            <column name="name" value="حجز مصيف"/>
+        </insert>
+
+    </changeSet>
+</databaseChangeLog>
